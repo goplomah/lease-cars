@@ -7,4 +7,8 @@ const swiper = new Swiper(".swiper", {
       disableOnInteraction: false
     },
     effect: "fade",
+    keyboard: {
+      enabled: true,
+      onlyInViewport: false,
+    },
   });

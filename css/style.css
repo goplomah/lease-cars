@@ -157,6 +157,40 @@ ul {
   background-color: #fff;
 }
 
+.why-lease {
+    padding: 150px 0;
+}
+.container {
+    
+}
+.section-title {
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.why-lease__list {
+    display: flex;
+    gap: 40px;
+    text-align: center;
+}
+.why-lease__item {
+
+}
+.why-lease__item-img {
+    display: block;
+    margin: 0 auto;
+}
+.why-lease__otem-title {
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 30px;
+}
+.why-lease__item-text {
+    margin-top: 30px;
+    text-align: left;
+}
+
 .footer {
   background-color: #151515;
   padding: 50px 0 32px;
