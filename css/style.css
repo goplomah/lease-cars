@@ -191,6 +191,62 @@ ul {
     text-align: left;
 }
 
+.how-does {
+    padding-bottom: 150px;
+}
+.container {
+}
+.how-does__inner {
+    max-width: 600px;
+    margin: 0 auto;
+}
+.section-title {
+}
+.how-does__text {
+}
+.how-does-title {
+    font-size: 24px;
+    font-weight: 700;
+    padding-top: 50px;
+}
+.how-does-list {
+    padding: 50px 0 70px;
+    counter-reset: myCounter;
+    list-style-type: none;
+}
+
+.how-does-item {
+    width: 270px;
+    position: relative;
+    margin-left: auto;
+    box-sizing: content-box;
+    padding: 19px 0 19px 240px;
+    min-height: 63px;
+}
+
+.how-does-item + .how-does-item {
+    margin-top: 40px;
+}
+
+.how-does-item::before {
+    counter-increment: myCounter;
+    content: counter(myCounter);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0066FF;
+    font-size: 48px;
+    font-weight: 700;
+    color: #fff;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+
 .footer {
   background-color: #151515;
   padding: 50px 0 32px;
