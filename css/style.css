@@ -370,6 +370,38 @@ ul {
     border-radius: 10px;
 }
 
+.blog {
+    padding-bottom: 150px;
+}
+.container {
+}
+.blog__items {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+}
+.blog__item {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.blog__iyem-img {
+    border-radius: 10px;
+    margin-bottom: 30px;
+    width: 100%;
+}
+.blog__item-title {
+    flex-basis: 446px;
+    font-size: 24px;
+    font-weight: 700;
+}
+.blog__item-link {
+    color: #fff;
+    background-color: #0066FF;
+    padding: 4px 20px;
+    border-radius: 10px;
+}
+
 .footer {
   background-color: #151515;
   padding: 50px 0 32px;
