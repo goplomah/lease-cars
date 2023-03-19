@@ -10,5 +10,7 @@
 - реализация связывания страниц (бэк не планируется);
 -
 
-[макет сайта](https://www.figma.com/file/5DOBWtvXYUWcbHXhjfRfjK/lease-cars?node-id=2%3A1669&t=kJNKynayn6y5tqTb-0)
-[сайт тут](https://goplomah.github.io/lease-cars/)
+- [макет сайта](https://www.figma.com/file/5DOBWtvXYUWcbHXhjfRfjK/lease-cars?node-id=2%3A1669&t=kJNKynayn6y5tqTb-0)
+
+
+- [сайт тут](https://goplomah.github.io/lease-cars/)
