@@ -593,6 +593,8 @@ margin-bottom: 70px;
 .copy__nav-link {
 }
 
+
+
 @media (max-width: 1180px) {
   .important-list{
     gap: 30px 20px;
@@ -622,6 +624,7 @@ margin-bottom: 70px;
     max-width: 310px;
   }
 }
+
 
 @media (max-width: 860px) {
   .header__inner{
@@ -676,6 +679,13 @@ margin-bottom: 70px;
   max-width: 270px;
 }
 }
+
+@media screen and (max-width: 860px) and (orientation: landscape){
+  .menu__list{
+    padding-top: 60px;
+  }
+}
+
 
 @media (max-width: 768px) {
   .title{
@@ -853,3 +863,4 @@ margin-bottom: 70px;
     max-width: 220px;
   }
 }
+
